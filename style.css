@@ -25,10 +25,9 @@ nav ul li > a {
 .section3 {
   margin: 10px;
   padding: 16px;
-  border-radius: 5px;
+  border-radius: 8px;
   display: flex;
   align-items: center;
-  /* flex-wrap: wrap; */
 }
 .section1 {
   border: 2px solid red;
@@ -42,38 +41,49 @@ nav ul li > a {
   border: 2px solid #ff00c8;
   background-color: #001aff;
 }
-.section1  h2 {
+.section1 h2 {
   color: red;
   font-size: 30px;
 }
-.section1  p {
+.section1 p {
   font-size: 20px;
   color: #7c3320;
 }
-.section2  h2 {
+.section2 h2 {
   color: #3700ff;
   font-size: 25px;
 }
-.section2  p {
+.section2 p {
   font-size: 18px;
   color: #850774;
 }
-.section3  h2 {
+.section3 h2 {
   color: #f700ff;
   font-size: 20px;
 }
-.section3  p {
+.section3 p {
   font-size: 16px;
   color: #690d2c;
 }
 .section1 button,
 .section2 button,
 .section3 button {
-  background-color: #1d628a;
-  color: white;
   padding: 10px;
   border: none;
   border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.section1 button {
+  color: #ad0707;
+  background-color: #3f7ea8;
+}
+.section2 button {
+  color: blue;
+}
+.section3 button {
+  color: coral;
+  background-color: black;
 }
 .section-images {
   display: flex;
@@ -84,4 +94,5 @@ nav ul li > a {
   width: 300px;
   height: 250px;
   padding: 10px;
+  border-radius: 30px;
 }
